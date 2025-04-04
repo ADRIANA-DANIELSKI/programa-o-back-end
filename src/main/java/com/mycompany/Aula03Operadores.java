@@ -1,12 +1,51 @@
-package com.mycompany;
+    package com.mycompany;
 
-public class Aula03Operadores {
+    public class Aula03Operadores {
 
-    public static void main(String[] args) {
-        /**
-         * Tipos de Comentários
-         */
+        public static void main(String[] args) {
+            /**
+             * Tipos de Comentários
+             */
 
-        //Comentário de uma linha
+            //Comentário de uma linha
+
+            /**
+             * Comentários de
+             * múltiplas
+             * linhas
+             */
+
+            /**
+             * Declaração de variáveis
+            */
+            
+            String varl; // Toda variável declarada sem valor, automaticamente é null
+            String var2 = null; //Variável declarada com valor null
+            String var3 = ""; // Variável declarada com valor vazio (diferente de null)
+             
+            /**
+             * Operadores matemáticos
+            */
+
+            int num1= 10;
+            int num2=2;
+
+            //Soma
+            int soma = num1+ num2;
+            System.out.println("A soma entre" + num1 + "e"+ num2 + "é": + soma);
+
+            //Subtração
+            int subtracao = num1 - num2;
+            System.out.println( "A subtracao de " + num1 + "por" + num2 + "é:" + subtracao);
+
+            //Multiplicação
+            int multiplicaçao = num1 * num2;
+            System.out.println("A multiplicação de " +num1 + "por" + num2 "é:") +multiplicacao;
+
+            //Divisão = 
+            int divisão = num1 / num2;
+            System.out.println("A divisao de " + num1 + "por" + num2 + "é:" + divisao);
+
+        }
     }
-}   
+        
