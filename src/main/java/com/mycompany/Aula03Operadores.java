@@ -32,18 +32,18 @@
 
             //Soma
             int soma = num1+ num2;
-            System.out.println("A soma entre" + num1 + "e"+ num2 + "é": + soma);
+            System.out.println("A soma entre" + num1 + "e"+ num2 + "é:" + soma);
 
             //Subtração
             int subtracao = num1 - num2;
             System.out.println( "A subtracao de " + num1 + "por" + num2 + "é:" + subtracao);
 
             //Multiplicação
-            int multiplicaçao = num1 * num2;
-            System.out.println("A multiplicação de " +num1 + "por" + num2 "é:") +multiplicacao;
+            int multiplicacao = num1 * num2;
+            System.out.println("A multiplicação de " + num1 + "por" + num2 + "é:" + multiplicacao);
 
             //Divisão = 
-            int divisão = num1 / num2;
+            int divisao = num1 / num2;
             System.out.println("A divisao de " + num1 + "por" + num2 + "é:" + divisao);
 
         }
