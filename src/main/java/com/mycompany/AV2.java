@@ -1,6 +1,7 @@
 package com.mycompany;
 
 public class AV2 {
+    
     public static void main(String[] args) {
         //01
         int pai1 = 46;
