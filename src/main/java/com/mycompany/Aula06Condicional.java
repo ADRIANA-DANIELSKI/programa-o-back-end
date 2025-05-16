@@ -1,5 +1,7 @@
 package com.mycompany;
 
+import java.util.Scanner;
+
 public class Aula06Condicional {
     public static void main(String[] args) {
         /**
@@ -36,6 +38,55 @@ public class Aula06Condicional {
             System.out.println("Está com peso ideal");
         } else {
             System.out.println("Está com obesidade");
+        }
+
+        /**
+         * Estrutura Switch/Case
+         *
+         * É similar ao if/else, com a diferença que ele considera valores predefinidos
+         * que serão observados em cada case (Caso).
+         *
+         * na sua estrutura ele analisa uma variável, e considera dentre suas opções
+         * qual
+         * considera.
+         * cada estrutura case deve conter um break, para encerrar a execução.
+         *
+         * o default (padrão) é executado, caso nenhum case tenha sido executado.
+         *
+         * um exemplo seria uma pergunta de múltipla escolha.
+         */
+
+        // Digitando textos em mais de uma linha
+        System.out.println(
+                "1) Verde, Amarelo e Azul, são cores que fazem parte da bandeira de qual país?\\n" +
+                        "\\na) Argentina" +
+                        "\\nb) Paraguai" +
+                        "\\nc) Brasil" +
+                        "\\nd) Alemanha" +
+                        "\\n\\nDigite uma opção: ");
+
+        Scanner scan = new Scanner(System.in);
+        String opcao = scan.nextLine();
+
+        Scanner scan = new Scanner(System.in);
+        String opcao = scan.nextLine();
+
+        switch (opcao) {
+            case "a":
+                System.out.println("Resposta incorreta !!");
+                break;
+            case "b":
+                System.out.println("Resposta incorreta !!");
+                break;
+            case "c":
+                System.out.println("Resposta correta !!");
+                break;
+            case "d":
+                System.out.println("Resposta incorreta !!");
+                break;
+            default:
+                System.out.println("Opção inexistente !!");
+                break;
         }
     }
 }
