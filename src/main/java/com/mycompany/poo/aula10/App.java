@@ -21,7 +21,10 @@ public class App {
         pessoa1.exibirDados();
         pessoa2.exibirDados();
 
-        System.out.println("--- Dados da pessoa---");
+        pessoa1.atribuirSalario(2000.0,240);
+        pessoa2.atribuirSalario(3500);
+
+        /*System.out.println("--- Dados da pessoa---");
         System.out.println("Nome: " + pessoa1.nome);
         System.out.println("Idade: " + pessoa1.idade);
         System.out.println("Altura (m):" + pessoa1.altura);
@@ -29,7 +32,8 @@ public class App {
         System.out.println("--- Dados da pessoa---");
         System.out.println("Nome: " + pessoa2.nome);
         System.out.println("Idade: " + pessoa2.idade);
-        System.out.println("Altura (m):" + pessoa2.altura);
+        System.out.println("Altura (m):" + pessoa2.altura);*/
+
 
     }
 
