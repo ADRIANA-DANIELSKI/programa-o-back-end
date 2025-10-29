@@ -6,7 +6,7 @@ public class App {
         Pessoa pessoa2 = new Pessoa( "Adriana");
         Pessoa pessoa3 = new Pessoa( 17);
         Pessoa pessoa4 = new Pessoa( 1.65);
-        Pessoa pessoa5 = new Pessoa("Iury",:1.84);
+        Pessoa pessoa5 = new Pessoa("Iury",1.84);
 
     }
 }
