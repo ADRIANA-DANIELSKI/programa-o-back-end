@@ -25,10 +25,10 @@ public class App {
                 System.out.println("---interfaces---");
 
                 CarroManual manual= new CarroManual();
-                manual.SeguirEmfrente();
+                manual.seguirEmFrente();
                 manual.estacionar();
 
-                CarroAutomatico = new CarroAutomatico();
+                CarroAutomatico automatico = new CarroAutomatico();
                 automatico.seguirEmFrente();
                 automatico.re();
                 automatico.estacionar();
